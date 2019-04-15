@@ -1,22 +1,24 @@
 import React, { Component } from 'react';
-import './App.css';
 import NavHead from './components/NavHead';
 import NavCarousel from './components/NavCarousel';
-import {BrowserRouter} from 'react-router-dom';
+import ItemCarousel from './components/ItemCarousel';
+import Footer from './components/Footer/Footer.js';
+import {BrowserRouter, Route} from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-
-          <BrowserRouter>
-              <NavHead/>
-          </BrowserRouter>
        <BrowserRouter>
+      <div className="App">
+      <Route />
+              <NavHead/>
            <NavCarousel/>
-       </BrowserRouter>
-
+       <div className="container">
+       <ItemCarousel />
+       </div>
+       <Footer />
       </div>
+        </BrowserRouter>
     );
   }
 }
