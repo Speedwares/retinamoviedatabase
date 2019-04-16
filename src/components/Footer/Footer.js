@@ -40,15 +40,7 @@ class Footer extends Component {
                 <li>
                   <a href="#">Plugins</a>
                 </li>
-                <li>
-                  <a href="#">Joomla Template</a>
-                </li>
-                <li>
-                  <a href="#">Admin Template</a>
-                </li>
-                <li>
-                  <a href="#">HTML Template</a>
-                </li>
+        
               </ul>
             </div>
            
@@ -67,15 +59,7 @@ class Footer extends Component {
                 <li>
                   <a href="#">How It Works</a>
                 </li>
-                <li>
-                  <a href="#">Affiliates</a>
-                </li>
-                <li>
-                  <a href="#">Testimonials</a>
-                </li>
-                <li>
-                  <a href="#">Contact Us</a>
-                </li>
+          
                 <li>
                   <a href="#">Plan &amp; Pricing</a>
                 </li>
@@ -109,20 +93,13 @@ class Footer extends Component {
                 <li>
                   <a href="#">FAQs</a>
                 </li>
-                <li>
-                  <a href="#">Buyers Faq</a>
-                </li>
-                <li>
-                  <a href="#">Sellers Faq</a>
-                </li>
+             
               </ul>
             </div>
           
           </div>
      
         </div>
-
-
       </div>
      
     </div>
@@ -135,7 +112,7 @@ class Footer extends Component {
         <div class="col-md-12">
           <div class="copyright-text">
             <p>© 2018
-              <a href="#">DigiPro</a>. All rights reserved. Created by
+              <a href="#">DigiPro</a>. All rights reserved
               <a href="#">AazzTech</a>
             </p>
           </div>
