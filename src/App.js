@@ -13,14 +13,14 @@ class App extends Component {
       <div className="App">
 
       <Route exact path="/" render = { props => (
-        <div>
+        <React.Fragment>
            <NavHead/>
            <NavCarousel/>
        <div className="container">
        <ItemCarousel />
        </div>
        <Footer />
-        </div>
+        </React.Fragment>
       )}/>
       <Route path="/details" component={Details} />   
       </div>
