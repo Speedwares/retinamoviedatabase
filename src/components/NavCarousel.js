@@ -14,8 +14,8 @@ class NavCarousel extends Component {
       <MDBCarousel
         activeItem={1}
         length={4}
-        showControls={false}
-        showIndicators={false}
+        showControls={true}
+        showIndicators={true}
         className="z-depth-1"
       >
         <MDBCarouselInner>
@@ -52,7 +52,7 @@ class NavCarousel extends Component {
               <img
                 className="d-block w-100"
                 src="https://mdbootstrap.com/img/Photos/Slides/img%20(17).jpg"
-                alt="Last slide"
+                alt="Third slide"
               />
               <MDBMask overlay="black-slight" />
             </MDBView>
