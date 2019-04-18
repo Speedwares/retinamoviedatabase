@@ -9,8 +9,8 @@ class ItemCarousel extends Component {
       slidesToShow: 7,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 2000,
-      autoplaySpeed: 2000,
+      speed: 4000,
+      autoplaySpeed: 5000,
       cssEase: "linear",
       responsive: [
         {
@@ -60,7 +60,7 @@ class ItemCarousel extends Component {
           <img
                 className="itemImage d-block w-100"
                 src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
-                alt="First slide"
+                alt="second slide"
               />
           </div>
           <div>
