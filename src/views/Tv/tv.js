@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import { MDBCard, MDBCardImage, MDBContainer, 
 MDBCol, MDBRow, MDBIcon} from 'mdbreact';
-import './tv.css'
-class Tv extends Component {
+import './details.css'
+class Details extends Component {
   render(){
   return (
  <React.Fragment>
@@ -16,7 +16,7 @@ class Tv extends Component {
         </MDBCol>
         <MDBCol md="7">
         <div>
-        <h2> Avengers </h2>
+        <h2> Captain Marvel</h2>
         <br/><br/>
         <h6>Genre: <span>Action, Adventure</span></h6>
         <h6>Released: <span> 25 Decemeber 2018</span> </h6>
@@ -40,4 +40,4 @@ class Tv extends Component {
   }
 }
 
-export default Tv;
+export default Details;

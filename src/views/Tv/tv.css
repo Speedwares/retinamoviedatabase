@@ -10,3 +10,21 @@
   margin-left: 15%;
   margin-right: 15%;
 }
+.imageToptv{
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+.Top{
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+.img{
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+}
