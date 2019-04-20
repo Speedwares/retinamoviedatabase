@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { MDBCard, MDBCardImage, MDBContainer, 
-MDBCol, MDBRow, MDBIcon} from 'mdbreact';
+MDBCol, MDBRow} from 'mdbreact';
 import './details.css'
 class Details extends Component {
   render(){
@@ -25,12 +25,13 @@ class Details extends Component {
           <h3>Movie Plot</h3> 
           <p>
           Louis Creed, his wife Rachel and their two children Gage and Ellie move to a rural home where they are welcomed and enlightened about the eerie 'Pet Sematary' located nearby. After the tragedy of their cat being killed by a truck, Louis resorts to burying it in the mysterious pet cemetery, which is definitely not as it seems, as it proves to the Creeds that sometimes dead is better.
+          The man was just the early Lorem ipsum
           </p>
         </div>
         
         </MDBCol>
         <MDBCol md="2">
-        <MDBIcon fab icon="gratipay" />
+      
         </MDBCol>
       </MDBRow>
     </MDBContainer>
