@@ -2,6 +2,11 @@ import React, {Component} from 'react';
 import { MDBCard, MDBCardImage, MDBContainer, 
 MDBCol, MDBRow, MDBIcon} from 'mdbreact';
 import './details.css'
+import VideoCarousel from './../../components/VideoCarousel';
+import CastCarousel from './../../components/CastCarousel'
+import ReviewJumbotron from './../../components/ReviewJumbotron'
+import Footer from './../../components/Footer/Footer'
+
 class Details extends Component {
   render(){
   return (
@@ -33,8 +38,34 @@ class Details extends Component {
         <MDBIcon fab icon="gratipay" />
         </MDBCol>
       </MDBRow>
+      <MDBRow>
+        <div className="container">
+          <h2> Videos </h2>
+        </div>
+      <div className="container">
+        <VideoCarousel/>
+      </div>
+      </MDBRow>
+
+      <MDBRow>
+        <div className="container">
+          <h2> Cast & Crew </h2>
+        </div>
+      <div className="container">
+        <CastCarousel/>
+      </div>
+      </MDBRow>
+      <MDBRow>
+        <div className="container">
+          <h2> Reviews </h2>
+        </div>
+      <div className="containerrev">
+        <ReviewJumbotron/>
+      </div>
+      </MDBRow>
     </MDBContainer>
-  
+
+    <Footer/>
   </React.Fragment>
   )
   }
